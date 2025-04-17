@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal do Aluno - Login</title>
-    
-    <meta name="description" content="Acesse o Portal do aluno da Geração Tech para vizualizar seus cursos, acompanhar seu progresso e muito mais. Faça seu login com segurança">
+
+    <meta name="description"
+        content="Acesse o Portal do aluno da Geração Tech para vizualizar seus cursos, acompanhar seu progresso e muito mais. Faça seu login com segurança">
 
     <meta name="robots" content="noindex, nofollow">
-    
+
     <link rel="stylesheet" href="css/main.css">
-    
+
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
+
 <body>
     <div class="switch-tema">
         <label for="switch-tema">
@@ -20,5 +23,29 @@
             <input type="checkbox" id="switch-tema">
         </label>
     </div>
+    <main>
+        <header>
+            <h1>Portal do Aluno</h1>
+            <p>Acesse sua conta na Geração Tech</p>
+        </header>
+        
+        <form>
+            <div class="campo">
+                <i class="ph ph-envelope-simples"></i>
+                <input type="email"
+                placeholder="Seu E-mail"
+                required autofocus>
+            </div>
+            <div class="campo">
+                <i class="ph ph-lock-simples-open"></i>
+                <input type="password"
+                placeholder="******"
+                required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+    
 </body>
+
 </html>
