@@ -42,6 +42,6 @@
 }
 
 .switch-tema input:checked::before{
-    transform: 
+    transform: translateX(20px);
 
 }
